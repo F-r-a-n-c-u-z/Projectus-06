@@ -13,7 +13,7 @@
     <script type="module" crossorigin src="/Projectus-06/commonHelpers.js"></script>
     <link rel="modulepreload" crossorigin href="/Projectus-06/assets/vendor-b5d83026.js">
     <link rel="stylesheet" href="/Projectus-06/assets/vendor-34758dd7.css">
-    <link rel="stylesheet" href="/Projectus-06/assets/index-036e05fd.css">
+    <link rel="stylesheet" href="/Projectus-06/assets/index-4a1866ad.css">
   </head>
   <body>
     <section class="section header-section">
@@ -325,10 +325,15 @@
 </section>
 
     <section id="projects" class="section">
-  <div class="container">
+  <div class="container container-proj">
     <h2 class="projects-title">Projects</h2>
     <!-- Slider main container -->
-    <div class="swiper-proj">
+    <div class="swiper swiper-proj">
+      <div class="projects-swiper-button">
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
       <!-- Additional required wrapper -->
       <ul class="swiper-wrapper">
         <!-- Slides -->
@@ -384,7 +389,8 @@
             "
                 />
                 <img
-                  src="/Projectus-06/assets/image 2@2x_result-a6e6123e.png"
+                  class="projects-teh-img"
+                  src="/Projectus-06/assets/image 2@1x_result-3c5f713f.png"
                   alt="reading a book"
                 />
               </picture>
@@ -431,7 +437,8 @@
                   srcset="/Projectus-06/assets/image2-2@1x_result_result-c456244f.webp 1x, /Projectus-06/assets/image2-2@2x_result_result-65d002a2.webp 2x"
                 />
                 <img
-                  src="/Projectus-06/assets/image 2@2x_result-a6e6123e.png"
+                  class="projects-teh-img"
+                  src="/Projectus-06/assets/image 2@1x_result-3c5f713f.png"
                   alt="reading a book"
                 />
               </picture>
@@ -478,7 +485,8 @@
                   srcset="data:image/webp;base64,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 1x, /Projectus-06/assets/image3-2@2x_result_result-0750a21b.webp 2x"
                 />
                 <img
-                  src="/Projectus-06/assets/image3-2@2x_result-645defb1.png"
+                  class="projects-teh-img"
+                  src="/Projectus-06/assets/image3-2@1x_result-8da596bb.png"
                   alt="petlove"
                 />
               </picture>
@@ -486,10 +494,9 @@
           </div>
         </li>
       </ul>
-      <!-- If we need navigation buttons -->
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
     </div>
+    <button class="projects-btn" type="button"></button>
+    <button class="projects-btn" type="button"></button>
   </div>
 </section>
 
