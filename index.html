@@ -13,7 +13,7 @@
     <script type="module" crossorigin src="/Projectus-06/commonHelpers.js"></script>
     <link rel="modulepreload" crossorigin href="/Projectus-06/assets/vendor-b5d83026.js">
     <link rel="stylesheet" href="/Projectus-06/assets/vendor-34758dd7.css">
-    <link rel="stylesheet" href="/Projectus-06/assets/index-4a1866ad.css">
+    <link rel="stylesheet" href="/Projectus-06/assets/index-c9d05c7f.css">
   </head>
   <body>
     <section class="section header-section">
@@ -329,11 +329,6 @@
     <h2 class="projects-title">Projects</h2>
     <!-- Slider main container -->
     <div class="swiper swiper-proj">
-      <div class="projects-swiper-button">
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-      </div>
       <!-- Additional required wrapper -->
       <ul class="swiper-wrapper">
         <!-- Slides -->
@@ -390,7 +385,7 @@
                 />
                 <img
                   class="projects-teh-img"
-                  src="/Projectus-06/assets/image 2@1x_result-3c5f713f.png"
+                  src="/Projectus-06/assets/image 2@2x_result-a6e6123e.png"
                   alt="reading a book"
                 />
               </picture>
@@ -495,8 +490,18 @@
         </li>
       </ul>
     </div>
-    <button class="projects-btn" type="button"></button>
-    <button class="projects-btn" type="button"></button>
+    <div class="projects-btn">
+      <button class="swiper-button-prev-proj-btn" type="button">
+        <svg class="arrow-left-proj-btn arrow-left" width="24" height="24">
+          <use href="/Projectus-06/assets/icon-598bb3f2.svg#arrow-narrow-right"></use>
+        </svg>
+      </button>
+      <button class="swiper-button-next-proj-btn" type="button">
+        <svg class="arrow-right-proj-btn arrow-right"  width="24" height="24">
+          <use href="/Projectus-06/assets/icon-598bb3f2.svg#arrow-narrow-right"></use>
+        </svg>
+      </button>
+    </div>
   </div>
 </section>
 
